@@ -32,4 +32,4 @@ docker run --name godeploy-consumer ./ssh/private_key:/etc/ssh_private_key:ro -d
 An extra environemt variable exists for the consumer:
  - `-e SSH_PASSPHRASE=`
 ## Docker compose
-To use it with a docker compose, check the [`docker-compose.yml`](./docker-compose.yml) example file.
+To use it with a docker compose, check the [`docker-compose.yml`](https://github.com/mehdibo/godeploy-docker/blob/develop/docker-compose.yml) example file.
