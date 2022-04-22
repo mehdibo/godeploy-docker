@@ -20,3 +20,6 @@ fi
 echo "Pushing Docker image..."
 docker push $IMAGE_NAME:$VERSION
 
+echo "\n\n"
+echo "If this is the latest version run:"
+echo "docker tag $IMAGE_NAME:$VERSION $IMAGE_NAME:latest; docker push $IMAGE_NAME:latest"
