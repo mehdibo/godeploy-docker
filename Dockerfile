@@ -1,6 +1,6 @@
 FROM golang:1.18-alpine AS builder
 
-ARG GODEPLOY_VERSION=v0.0.1-alpha
+ARG GODEPLOY_VERSION=develop
 
 WORKDIR /opt/godeploy
 
